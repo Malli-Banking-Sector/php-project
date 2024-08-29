@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('git cloned'){
             steps{
-                git url:'https://github.com/akshu20791/php-project/', branch: "master"
+                git https://github.com/Malli-Banking-Sector/php-project', branch: "master"
               
             }
         }
